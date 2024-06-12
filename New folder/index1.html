@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sale Order Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sale Order Management</h1>
+    <label for="theme-toggle">Dark Theme:</label>
+    <input type="checkbox" id="theme-toggle">
+    <div class="tabs">
+      <button class="tab active" data-target="active-orders">Active Orders</button>
+      <button class="tab" data-target="completed-orders">Completed Orders</button>
+    </div>
+    <div id="active-orders">
+      <h2>Active Sale Orders</h2>
+      </div>
+    <div id="completed-orders" style="display: none;">
+      <h2>Completed Sale Orders</h2>
+      </div>
+    <form id="login-form">
+      </form>
+    <p id="error-message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
