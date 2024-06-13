@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #error-message {
+    color: red;
+  }
+/* Add styles for dark theme */
+body.dark {
+    background-color: #222;
+    color: #ddd;
+  }
+  
+  body.dark h1 {
+    color: white;
+  }
+  
+  body.dark label {
+    color: white;
+  }
+  
+  body.dark input[type="text"],
+  body.dark input[type="password"] {
+    background-color: #333;
+    color: white;
+  }
+  
+  body.dark button {
+    background-color: #428bca;
+  }
+  
+  /* Other styles from previous code */
+/* Add styles for tabs */
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .tab.active {
+    background-color: #eee;
+  }
+  
+  /* Other styles from previous code */
+      
